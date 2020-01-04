@@ -64,7 +64,7 @@ declare module "dart-code-gen" {
     
     class Writer {
 
-        constructor(builder: Builder, options: WriterOptions)
+        constructor(builder: Builder, options?: WriterOptions)
     
         toString(): string
         toFile(path: string): void
