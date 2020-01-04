@@ -29,12 +29,14 @@ declare class InternalClass {
     Extends(name: string): InternalClass
     Implements(name: string): InternalClass
     Function(name: string): InternalFunction
+    Constructor(): InternalFunction
     Variable(type: string, name: string, value?: string): InternalClass
 }
 
 declare class InternalFunction {
 
     Override(): InternalFunction
+    Constructor(): InternalFunction
     Type(name: string): InternalFunction
     Async(): InternalFunction
     Param(name: string, type?: string): InternalFunction
