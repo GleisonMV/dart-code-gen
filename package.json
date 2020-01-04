@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "A JS API for generating .dart source files.",
   "main": "index.js",
+  "typings": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
