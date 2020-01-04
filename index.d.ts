@@ -14,7 +14,7 @@ declare interface CallValue {
 
 declare interface Param {
     name: string
-    type: string
+    type?: string
     value?: Value
 }
 
